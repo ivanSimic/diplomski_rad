@@ -1,0 +1,26 @@
+{
+  "name": "diplomski",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "bootstrap": "^3.2.0",
+    "animate.css": "~3.3.0",
+    "angular-ui-router": "~0.2.15",
+    "angular-animate": "~1.4.3",
+    "satellizer": "~0.11.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0"
+  },
+  "appPath": "app",
+  "moduleName": "diplomskiApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
